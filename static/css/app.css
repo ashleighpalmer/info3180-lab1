@@ -1,8 +1,16 @@
+header
+{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 15px;
+    grid-column: span 2;
+}
+
 h1 {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 50px;
-  line-height: 1.5;
-  color:brown
+  
+  color:aliceblue
 }
 
 
@@ -10,4 +18,13 @@ p{
   font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
   color: black;
+  justify-content: center;
+}
+
+img{
+  height: 300px;
+  width: 250px;
+  align-content: center;
+  padding-left: 30%;
+  padding-right: 30%;
 }
